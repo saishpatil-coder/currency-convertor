@@ -18,7 +18,14 @@ body{
     padding: 1rem;
     text-align: center;
 }
-
+.swap p {
+    font-size: 8px;
+}
+.swap i{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 input{
     margin-top: 2rem;
     margin-bottom: 2rem;

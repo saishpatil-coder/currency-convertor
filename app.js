@@ -17,6 +17,14 @@ for(let opt of drop){
         setFlag(evt.target) ;
     })
 }
+document.querySelector("i").addEventListener("click" , ()=>{
+    let to = document.querySelector(".to select").value ;
+    document.querySelector(".to select").value = document.querySelector(".from select").value ;
+    document.querySelector(".from select").value = to ;
+    setFlag(document.querySelector(".from select"));
+    setFlag(document.querySelector(".to select")) ;
+
+});
 
 let getRate =async (from , to)=>{
     
